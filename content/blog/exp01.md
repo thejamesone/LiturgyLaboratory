@@ -18,18 +18,18 @@ Liturgylaboratory.com has been designed with the principles of care-agapism in m
 
 ### Loving the environment is also loving your neighbours
 
-The internet is an energy hungry creature. According to come estimates the internet, and it's supporting systems, account for about 3.7% of global greenhouse emissions. That is similar to the amount produced by the global airline industry [^2].
+The internet is an energy hungry creature. According to some estimates the internet, and its supporting systems, account for about 3.7% of global greenhouse emissions. That is similar to the amount produced by the global airline industry [^2].
 
 Inspired by The Low Impact Manifesto from Organic Basics [^3], this website has taken some steps to reduce its carbon footprint. 
 
 **This website does not use large images or videos.**
-There is a little animation of a flame on the home page. This is what's known as a css sprite animation. With this method we can reduce the size of the animation to 3kb, compared to ~99kb if it were a video. 
+You may have noticed a little animation of a flame on the home page. This is what's known as a css sprite animation. With this method we can reduce the size of the animation to 3kb, compared to ~99kb if it were a video. 
 
 **This website minimises the power consumption on the users device.**
 By reducing our data usage the users computer has to work less hard to load the website. We also don't do any processing heavy tasks, like rendering 3D graphics, or detailed user tracking. 
 
 **This website limits the amount of light emitted by the screen.**
-The colour scheme was chosen to maximise contrast, while reducing the light emitted by the screen. 
+The colour scheme was chosen to maximise contrast, while reducing the light emitted by the screen and thus power consumption. 
 
 **This website does not use any custom fonts.**
 The font we use is Trebuchet MS. It's generally considered 'web-safe' as it comes preinstalled on all modern computers. This means we don't have to load a custom font from our server in order to display our website. 
@@ -39,9 +39,9 @@ This website is hosted with Green Geeks [^4] which power their servers with rene
 
 ### Respecting the users data is loving your neighbour. 
 
-We believe that a user's data precious, and to take it without permission is akin to robbery. Organisations that extract large amounts of personal user data to fuel their advertising economies do not properly respect the worth of the user. 
+We believe that a user's data is precious, and to take it without permission is akin to robbery. Organisations that extract large amounts of personal user data to fuel their advertising economies do not properly respect the worth of the user. 
 
-This website collects no personal data. We only record anonymous data, such as the number of visitors we get, and the types of device they use. We do not use any cookies or other tracking technologies to follow visitors around the 
+This website collects no personal data. We only record anonymous, aggregated data, such as the number of visitors we get, and the types of device they use. We do not use any cookies or other tracking technologies to follow visitors around.
 
 ### Taking a day off is loving your neighbour.
 
