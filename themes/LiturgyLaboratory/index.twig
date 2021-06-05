@@ -1,0 +1,31 @@
+{% extends "base.twig" %}
+
+
+{% block main %}
+
+
+          <div class="row top">
+              <div id="shine"></div>
+            <div class="col-6">
+              <div id="HeroTitle">
+                <h1>Liturgy Laboratory</h1>
+                <p>Exploring ways to connect with God in the everyday 21<sup>st</sup> century</p>
+              </div>
+            </div>
+
+            <div class="col-6 flamePos">
+              <div id="flame"></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-3">
+              <h2>Everything is liturgy</h2>
+            </div>
+            <div class="col-9">
+              {{ content }}
+            </div>
+          </div>
+
+
+{% endblock %}

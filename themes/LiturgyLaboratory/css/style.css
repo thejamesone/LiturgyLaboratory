@@ -1,0 +1,664 @@
+/**
+*** SIMPLE GRID
+*** (C) ZACH COLE 2016
+**/
+
+
+/* UNIVERSAL */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+}
+
+/* POSITIONING */
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/* ==== GRID SYSTEM ==== */
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 96%;
+}
+
+.col-1-sm {
+  width: 4.33%;
+}
+
+.col-2-sm {
+  width: 12.66%;
+}
+
+.col-3-sm {
+  width: 21%;
+}
+
+.col-4-sm {
+  width: 29.33%;
+}
+
+.col-5-sm {
+  width: 37.66%;
+}
+
+.col-6-sm {
+  width: 46%;
+}
+
+.col-7-sm {
+  width: 54.33%;
+}
+
+.col-8-sm {
+  width: 62.66%;
+}
+
+.col-9-sm {
+  width: 71%;
+}
+
+.col-10-sm {
+  width: 79.33%;
+}
+
+.col-11-sm {
+  width: 87.66%;
+}
+
+.col-12-sm {
+  width: 96%;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */
+  .col-1 {
+    width: 4.33%;
+  }
+
+  .col-2 {
+    width: 12.66%;
+  }
+
+  .col-3 {
+    width: 21%;
+  }
+
+  .col-4 {
+    width: 29.33%;
+  }
+
+  .col-5 {
+    width: 37.66%;
+  }
+
+  .col-6 {
+    width: 46%;
+  }
+
+  .col-7 {
+    width: 54.33%;
+  }
+
+  .col-8 {
+    width: 62.66%;
+  }
+
+  .col-9 {
+    width: 71%;
+  }
+
+  .col-10 {
+    width: 79.33%;
+  }
+
+  .col-11 {
+    width: 87.66%;
+  }
+
+  .col-12 {
+    width: 96%;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 60em) { /* 960px */
+  .container {
+    width: 75%;
+    max-width: 60rem;
+  }
+}
+
+
+/**/
+/* Type system */
+/**/
+/* @link https://utopia.fyi/type/calculator?c=600,15,1.25,1200,20,1.25,5,2,768-992&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+
+:root {
+  --fluid-min-width: 600;
+  --fluid-max-width: 1200;
+
+  --fluid-screen: 100vw;
+  --fluid-bp: calc(
+    (var(--fluid-screen) - var(--fluid-min-width) / 16 * 1rem) /
+      (var(--fluid-max-width) - var(--fluid-min-width))
+  );
+}
+
+@media screen and (min-width: 1200px) {
+  :root {
+    --fluid-screen: calc(var(--fluid-max-width) * 1px);
+  }
+}
+
+:root {
+  --f--2-min: 9.60;
+  --f--2-max: 12.80;
+  --step--2: calc(
+    ((var(--f--2-min) / 16) * 1rem) + (var(--f--2-max) - var(--f--2-min)) *
+      var(--fluid-bp)
+  );
+
+  --f--1-min: 12.00;
+  --f--1-max: 16.00;
+  --step--1: calc(
+    ((var(--f--1-min) / 16) * 1rem) + (var(--f--1-max) - var(--f--1-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-0-min: 15.00;
+  --f-0-max: 20.00;
+  --step-0: calc(
+    ((var(--f-0-min) / 16) * 1rem) + (var(--f-0-max) - var(--f-0-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-1-min: 18.75;
+  --f-1-max: 25.00;
+  --step-1: calc(
+    ((var(--f-1-min) / 16) * 1rem) + (var(--f-1-max) - var(--f-1-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-2-min: 23.44;
+  --f-2-max: 31.25;
+  --step-2: calc(
+    ((var(--f-2-min) / 16) * 1rem) + (var(--f-2-max) - var(--f-2-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-3-min: 29.30;
+  --f-3-max: 39.06;
+  --step-3: calc(
+    ((var(--f-3-min) / 16) * 1rem) + (var(--f-3-max) - var(--f-3-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-4-min: 36.62;
+  --f-4-max: 48.83;
+  --step-4: calc(
+    ((var(--f-4-min) / 16) * 1rem) + (var(--f-4-max) - var(--f-4-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-5-min: 45.78;
+  --f-5-max: 61.04;
+  --step-5: calc(
+    ((var(--f-5-min) / 16) * 1rem) + (var(--f-5-max) - var(--f-5-min)) *
+      var(--fluid-bp)
+  );
+}
+
+/* ==== My styles ==== */
+/* Color reff
+Jet = 333333
+Redwood = 945A4D
+Salmon = F48067
+Seashell = FEECE7
+*/
+
+
+body{
+  display: flex; flex-direction: column;
+  background: #F48067;
+  font-family: "Trebuchet MS", sans-serif;
+  }
+
+#flex_wrap{
+    flex-grow: 1;
+  }
+
+#title img{
+  border-bottom: solid 0.3em #333333;
+  height: 3em;
+}
+
+#title img:hover{
+  border-color: #feece7;
+}
+
+#head{
+  color: #333333;
+  width: 100%;
+  border-bottom: 1px solid #333333;
+  font-size: var(--step-1);
+  line-height: var(--step-1);
+  letter-spacing: -0.01em;
+}
+
+#head .row{
+  display: flex;
+}
+
+#head [class^="col"]{
+  flex: 1;
+  align-self: flex-end;
+}
+
+#nav {
+  color: #333333;
+  font-size: var(--step-0);
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: none;
+  align-self: flex-end;
+}
+
+#nav li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+#mobNav{
+  display: none;
+  color: #333333;
+  font-size: var(--step-1);
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  line-height: var(--step-3);
+  text-decoration: none;
+  align-self: flex-end;
+  text-align: right;
+  width:100%;
+  border-bottom: 1px solid #333333;
+}
+
+#mobNav li {
+  list-style-type: none;
+}
+
+#mobNavIcon{
+  display: none;
+}
+
+.top{
+  border-bottom: 1px solid #333333;
+  height: 30em;
+}
+
+#HeroTitle {
+  color:  #333333;
+  font-size: var(--step-5);
+  font-weight: bold;
+  position: absolute;
+  width: inherit;
+  margin: 0;
+  top: 50%;
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+}
+
+#HeroTitle H1{
+  color:  #333333;
+  font-size: var(--step-5);
+  line-height: var(--step-5);
+  letter-spacing: -0.01em;
+}
+
+hr{
+   border: none;
+   border-bottom: 1px solid #333333;
+ }
+
+H1{
+  font-size: var(--step-3);
+  line-height: var(--step-3);
+  font-family: "Trebuchet MS", sans-serif;
+  color:  #333333;
+}
+
+H2{
+  font-size: var(--step-1);
+  font-family: "Trebuchet MS", sans-serif;
+  color:  #333333;
+}
+
+H3{
+  font-size: var(--step-0);
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color:  #333333;
+}
+
+ul{
+  font-size: var(--step--1);
+  color:  #333333;
+  line-height: 1.5em;
+}
+
+
+p{
+  font-size: var(--step--1);
+  font-family: "Trebuchet MS", sans-serif;
+  line-height: 1.5em;
+  color:  #333333;
+  letter-spacing:normal;
+}
+
+.top p {
+  font-size: var(--step-0);
+}
+
+
+a{
+  text-decoration: none;
+  color: #333333;
+  text-decoration: underline;
+  text-underline-offset: 1.4px;
+  text-decoration-thickness: .2em;
+}
+
+#nav a{
+  margin-left: 2em;
+}
+
+.active{
+  text-decoration-color: #945A4D;
+}
+
+a:hover {
+  text-decoration-color: #feece7;
+}
+
+.exp{
+  display: flex;
+}
+
+.expImg{
+border-bottom: 1px solid #333333;
+}
+
+.expImg img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+@keyframes sprite {
+  100% { background-position: -920px 0px;}
+}
+
+.date{
+  font-size: var(--step--2);
+  font-weight: bold;
+}
+
+.expTitle{
+  text-transform: uppercase;
+  font-size: var(--step-5);
+  margin-top: 0.2em;
+
+  margin-left: -2px;
+}
+
+.expTitle hr{
+  border: none;
+  border-bottom: 1px solid #333333;
+}
+
+#flame{
+  position: relative;
+  left: 50%;
+  top: 17em;
+  margin-left: -30px;
+  margin-top: -80px;
+  height: 147px;
+  width: 61px;
+  background: transparent url("../img/FlameAnimation-02.svg") 0 0 no-repeat;
+  background-size: auto 100%;
+  animation-name: sprite;
+  animation-duration: 1.8s;
+  animation-timing-function: steps(15);
+  animation-iteration-count: infinite
+}
+
+@media only screen and (min-width: 1024px) {
+  #flame {
+    transform: scale(1);
+  }
+}
+
+#shine{
+  position: absolute;
+  background: transparent url("../img/bgGlow-03.svg") 0 0 no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: -3px 100%;
+}
+
+.Exp p{
+  margin: 0;
+  color: #D4975C;
+  font-size: var(--step--1);
+  line-height: var(--step-0);
+}
+
+#footer {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #F48067;
+  background-color: #945A4D;
+}
+
+#footer{
+  font-size: var(--step--2);
+}
+
+
+#footer li {
+  margin-bottom: 1em;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#footer a{
+  color: #F48067;
+}
+
+#footer a:hover {
+  text-decoration-color: #feece7;
+}
+
+.notFound{
+  position: absolute;
+  width: inherit;
+  margin: 0;
+  top: 50%;
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+}
+
+.footnotes *, .footnotes p, .footnote-ref{
+  font-size: var(--step--2);
+  color: #945A4D;
+}
+
+sup { vertical-align: top; font-size: var(--step--2); }
+
+.footnotes hr{
+  border-color: #945A4D;
+}
+
+
+/* */
+/* Break points */
+/* */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 719px) {
+
+  .expImg{
+    display: none;
+  }
+
+  #mobNavIcon{
+    display: block;
+    padding-bottom: 0.3em;
+  }
+
+  #nav{
+    display: none;
+  }
+
+  #HeroTitle H1{
+    margin-bottom: 0.1em;
+  }
+
+  #HeroTitle p{
+    margin-bottom: 1.5em;
+  }
+
+  .top{
+    height: 12em;
+  }
+
+  #flame{
+    display: none;
+  }
+
+  .flamePos{
+    display: none;
+  }
+
+  #shine{
+    display: none;
+  }
+
+  footer-logo{
+    display: none;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 720px) {
+  .top{
+    height: 15em;
+  }
+
+  #flame{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  .flamePos{
+    height: 80%;
+    position: relative;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .top{
+    height: 19em;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .top{
+    height: 22em;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .top{
+    height: 25em;
+  }
+}
