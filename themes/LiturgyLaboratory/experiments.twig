@@ -14,11 +14,11 @@
 
               {% for page in pages("blog")|sort_by("time")|reverse if not page.hidden %}
               <div class="row exp">
-                  <div class="col-6 expImg">
+                  <div class="col-6">
                       <p class="date">{{ page.date_formatted }}</p>
                       <h1 class="expTitle"><a href="{{ page.url }}">{{ page.title }}</a></h1>
                       <p class="excerpt">{{ page.description }}</p>
-                      
+
                   </div>
                   <div class="col-6 expImg">
                       <img class="" src="{{ theme_url }}/img/{{ page.title }}.svg" alt="Illustration of the experiment">

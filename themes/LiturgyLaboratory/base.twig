@@ -63,7 +63,7 @@
           <div id="mobNav" role="navigation" tabindex="-1">
               <ul>
                 {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
-                    {% if page.id != "index" %}
+                    {% if page.id not in [ "privacyPolicy", "index" ] %}
                     <li>
                         <a href="{{ page.url }}" {% if page.id == current_page.id %} class="active"{% endif %}>{{ page.title }}</a>
                     </li>
