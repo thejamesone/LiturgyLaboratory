@@ -527,12 +527,15 @@ border-bottom: 1px solid #333333;
 #footer {
   padding-top: 1em;
   padding-bottom: 1em;
-  color: #F48067;
-  background-color: #945A4D;
+  color: #feece7;
+  background-color: #333333;
 }
+
+
 
 #footer{
   font-size: var(--step--2);
+  line-height: 1.5em;
 }
 
 
@@ -543,11 +546,11 @@ border-bottom: 1px solid #333333;
 }
 
 #footer a{
-  color: #F48067;
+  color: #feece7;
 }
 
 #footer a:hover {
-  text-decoration-color: #feece7;
+  text-decoration-color: #F48067;
 }
 
 .notFound{
