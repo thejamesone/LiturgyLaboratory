@@ -1,0 +1,90 @@
+[05-Jun-2021 14:34:34 UTC] PHP Warning:  include(/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php): failed to open stream: No such file or directory in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:34:34 UTC] PHP Warning:  include(): Failed opening '/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:34:34 UTC] PHP Fatal error:  Uncaught Error: Class 'PicoDeprecated' not found in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php:597
+Stack trace:
+#0 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(549): Pico->loadComposerPlugins()
+#1 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(424): Pico->loadPlugins()
+#2 /home/liturgyl/public_html/index.php(39): Pico->run()
+#3 {main}
+  thrown in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php on line 597
+[05-Jun-2021 14:34:39 UTC] PHP Warning:  include(/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php): failed to open stream: No such file or directory in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:34:39 UTC] PHP Warning:  include(): Failed opening '/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:34:39 UTC] PHP Fatal error:  Uncaught Error: Class 'PicoDeprecated' not found in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php:597
+Stack trace:
+#0 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(549): Pico->loadComposerPlugins()
+#1 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(424): Pico->loadPlugins()
+#2 /home/liturgyl/public_html/index.php(39): Pico->run()
+#3 {main}
+  thrown in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php on line 597
+[05-Jun-2021 14:35:02 UTC] PHP Warning:  include(/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php): failed to open stream: No such file or directory in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:35:02 UTC] PHP Warning:  include(): Failed opening '/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:35:02 UTC] PHP Fatal error:  Uncaught Error: Class 'PicoDeprecated' not found in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php:597
+Stack trace:
+#0 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(549): Pico->loadComposerPlugins()
+#1 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(424): Pico->loadPlugins()
+#2 /home/liturgyl/public_html/index.php(39): Pico->run()
+#3 {main}
+  thrown in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php on line 597
+[05-Jun-2021 14:35:03 UTC] PHP Warning:  include(/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php): failed to open stream: No such file or directory in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:35:03 UTC] PHP Warning:  include(): Failed opening '/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:35:03 UTC] PHP Fatal error:  Uncaught Error: Class 'PicoDeprecated' not found in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php:597
+Stack trace:
+#0 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(549): Pico->loadComposerPlugins()
+#1 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(424): Pico->loadPlugins()
+#2 /home/liturgyl/public_html/index.php(39): Pico->run()
+#3 {main}
+  thrown in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php on line 597
+[05-Jun-2021 14:35:04 UTC] PHP Warning:  include(/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php): failed to open stream: No such file or directory in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:35:04 UTC] PHP Warning:  include(): Failed opening '/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:35:04 UTC] PHP Fatal error:  Uncaught Error: Class 'PicoDeprecated' not found in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php:597
+Stack trace:
+#0 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(549): Pico->loadComposerPlugins()
+#1 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(424): Pico->loadPlugins()
+#2 /home/liturgyl/public_html/index.php(39): Pico->run()
+#3 {main}
+  thrown in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php on line 597
+[05-Jun-2021 14:35:05 UTC] PHP Warning:  include(/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php): failed to open stream: No such file or directory in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:35:05 UTC] PHP Warning:  include(): Failed opening '/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:35:05 UTC] PHP Fatal error:  Uncaught Error: Class 'PicoDeprecated' not found in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php:597
+Stack trace:
+#0 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(549): Pico->loadComposerPlugins()
+#1 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(424): Pico->loadPlugins()
+#2 /home/liturgyl/public_html/index.php(39): Pico->run()
+#3 {main}
+  thrown in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php on line 597
+[05-Jun-2021 14:36:58 UTC] PHP Warning:  include(/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php): failed to open stream: No such file or directory in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:36:58 UTC] PHP Warning:  include(): Failed opening '/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:36:58 UTC] PHP Fatal error:  Uncaught Error: Class 'PicoDeprecated' not found in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php:597
+Stack trace:
+#0 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(549): Pico->loadComposerPlugins()
+#1 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(424): Pico->loadPlugins()
+#2 /home/liturgyl/public_html/index.php(39): Pico->run()
+#3 {main}
+  thrown in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php on line 597
+[05-Jun-2021 14:36:59 UTC] PHP Warning:  include(/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php): failed to open stream: No such file or directory in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:36:59 UTC] PHP Warning:  include(): Failed opening '/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:36:59 UTC] PHP Fatal error:  Uncaught Error: Class 'PicoDeprecated' not found in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php:597
+Stack trace:
+#0 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(549): Pico->loadComposerPlugins()
+#1 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(424): Pico->loadPlugins()
+#2 /home/liturgyl/public_html/index.php(39): Pico->run()
+#3 {main}
+  thrown in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php on line 597
+[05-Jun-2021 14:36:59 UTC] PHP Warning:  include(/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php): failed to open stream: No such file or directory in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:36:59 UTC] PHP Warning:  include(): Failed opening '/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:36:59 UTC] PHP Fatal error:  Uncaught Error: Class 'PicoDeprecated' not found in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php:597
+Stack trace:
+#0 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(549): Pico->loadComposerPlugins()
+#1 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(424): Pico->loadPlugins()
+#2 /home/liturgyl/public_html/index.php(39): Pico->run()
+#3 {main}
+  thrown in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php on line 597
+[05-Jun-2021 14:37:00 UTC] PHP Warning:  include(/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php): failed to open stream: No such file or directory in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:37:00 UTC] PHP Warning:  include(): Failed opening '/home/liturgyl/public_html/vendor/composer/../../plugins/PicoDeprecated/PicoDeprecated.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/liturgyl/public_html/vendor/composer/ClassLoader.php on line 444
+[05-Jun-2021 14:37:00 UTC] PHP Fatal error:  Uncaught Error: Class 'PicoDeprecated' not found in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php:597
+Stack trace:
+#0 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(549): Pico->loadComposerPlugins()
+#1 /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php(424): Pico->loadPlugins()
+#2 /home/liturgyl/public_html/index.php(39): Pico->run()
+#3 {main}
+  thrown in /home/liturgyl/public_html/vendor/picocms/pico/lib/Pico.php on line 597
