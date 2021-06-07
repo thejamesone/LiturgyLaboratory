@@ -10,11 +10,11 @@ Template: exp-page
 
 ## Can a website be loving?
 
-What does it mean to design with love? Philosophical theologian Nicholas Wolterstroff talks about what he calls care-agapism. Care-agapism is the ethical framework Wolterstroff uses to apply the instruction: love your neighbour as your self. To love your neighbour is to seek their good, secure their rights, and respect their worth for no other reason than the fact that they are your neighbour [^1]. And everyone is your neighbour. 
+What does it mean to design with love? Love can be a vague and slippery concept. A person can say they love their spouse and also say they love Thai food; the meaning of the word love is very vulnerable to it's context. The kind of love discussed here is what philosophical theologian Nicholas Wolterstroff calls care-love. Wolterstroff argues that this is the kind of love that Jesus had in mind when he said "Love your neighbour as yourself", found in the books of Matthew and Mark in the Bible. To love your neighbour is to seek their good, secure their rights, and respect their worth for no other reason than the fact that they are your neighbour [^1]. And everyone is your neighbour. 
 
-## So, how might we apply the principles of care-agapism to a website? 
+## So, how might we apply the principles of love to a website? 
 
-Liturgylaboratory.com has been designed with the principles of care-agapism in mind. Although it might at first glance look like any other website, it operates a little differently. Here we will step through all the design decisions that were made with love in mind. 
+Liturgylaboratory.com has been designed with the principles of care-love in mind. Although it might at first glance look like any other website, it operates a little differently. Here we will step through all the design decisions that were made with love in mind. 
 
 ### Loving the environment is also loving your neighbours
 
