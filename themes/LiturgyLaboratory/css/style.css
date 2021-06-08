@@ -506,7 +506,25 @@ border-bottom: 1px solid #333333;
   animation-name: sprite;
   animation-duration: 1.8s;
   animation-timing-function: steps(15);
-  animation-iteration-count: infinite
+  animation-iteration-count: infinite;
+}
+
+@media (prefers-reduced-motion) {
+  #flame {
+    position: relative;
+    left: 50%;
+    top: 17em;
+    margin-left: -30px;
+    margin-top: -80px;
+    height: 147px;
+    width: 61px;
+    background: transparent url("../img/FlameAnimation-02.svg") 0 0 no-repeat;
+    background-size: auto 100%;
+    animation-name: sprite;
+    animation-duration: 3.0s;
+    animation-timing-function: steps(15);
+    animation-iteration-count: infinite;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
