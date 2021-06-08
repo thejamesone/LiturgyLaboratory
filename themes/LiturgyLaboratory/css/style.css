@@ -443,6 +443,10 @@ a{
 #nav a{
   margin-left: 2em;
 }
+/* external link styles */
+a[href*="//"]:not([href*="liturgylaboratory.com"])::after {
+    content: " \2197";
+  }
 
 .active{
   text-decoration-color: #945A4D;
