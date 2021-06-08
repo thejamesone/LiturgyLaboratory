@@ -4,7 +4,7 @@ id: footer
 
 <div class="col-3 footer-logo">
 
-The Liturgy Laboratory is a project of James O'Neill (2021).
+Made with ❤️ in Dublin. James O'Neill (2021).
 
 </div>
 
