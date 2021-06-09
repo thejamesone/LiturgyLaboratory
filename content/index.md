@@ -8,4 +8,4 @@ Template: index
 ---
 
 
-Liturgy is not just what happens in a church. The way we live our lives is a form of worship. Any yet, life can feel complicated; simultaneously connected and isolated, wealthy and impoverished, informed and blinded. The Liturgy Laboratory is an ongoing series of experiments designed to help us explore these tensions, and practice postures of grace and love in the context of this modern world.
+Liturgy is not just what happens in a church. The way we live our lives is a form of worship. And yet, life can feel complicated; simultaneously connected and isolated, wealthy and impoverished, informed and blinded. The Liturgy Laboratory is an ongoing series of experiments designed to help us explore these tensions, and practice postures of grace and love in the context of this modern world.
