@@ -561,6 +561,7 @@ border-bottom: 1px solid #333333;
 #footer p{
   font-size: var(--step--2);
   line-height: 1.5em;
+  color: #feece7;
 }
 
 
