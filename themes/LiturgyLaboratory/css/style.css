@@ -290,6 +290,9 @@ body{
   display: flex; flex-direction: column;
   background: #F48067;
   font-family: "Trebuchet MS", sans-serif;
+  font-kerning: normal;
+  word-spacing: -0.07em;
+  text-rendering: optimizeLegibility;
   }
 
 #flex_wrap{
