@@ -297,6 +297,7 @@ body{
 
 #flex_wrap{
     flex-grow: 1;
+    margin-bottom: 4em;
   }
 
 #title img{
@@ -421,6 +422,10 @@ ul{
   line-height: 1.5em;
 }
 
+#expContent H3, #expContent H2 {
+  margin-top: 2em;
+}
+
 
 p{
   font-size: var(--step--1);
@@ -494,6 +499,7 @@ border-bottom: 1px solid #333333;
 .expTitle hr{
   border: none;
   border-bottom: 1px solid #333333;
+
 }
 
 #flame{
@@ -567,6 +573,9 @@ border-bottom: 1px solid #333333;
   color: #feece7;
 }
 
+#footer h3{
+  color: #feece7;
+}
 
 #footer li {
   margin-bottom: 1em;

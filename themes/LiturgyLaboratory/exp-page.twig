@@ -5,15 +5,16 @@
 {% block main %}
 
               <div class="row">
-                  <div class="col-8">
+                  <div class="col-9">
                       <h2><a href="{{ pages["exp"].url }}">Back</a></h2>
+                      <hr>
                       <p class="date">{{ meta.date_formatted }}</p>
                       <h1 class="expTitle">{{ meta.title }}</h1>
                       <hr>
                   </div>
               </div>
               <div class="row">
-              <div class="col-8">
+              <div class="col-9" id="expContent">
                 {{ content }}
               </div>
 
