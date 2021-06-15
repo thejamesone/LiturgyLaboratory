@@ -424,8 +424,13 @@ ul{
 
 #expContent H3, #expContent H2 {
   margin-top: 2em;
+  margin-left: -1em;
 }
 
+hr{
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+}
 
 p{
   font-size: var(--step--1);
