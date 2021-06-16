@@ -275,6 +275,20 @@ body {
     ((var(--f-5-min) / 16) * 1rem) + (var(--f-5-max) - var(--f-5-min)) *
       var(--fluid-bp)
   );
+
+  --f-6-min: 57.22;
+  --f-6-max: 76.29;
+  --step-6: calc(
+    ((var(--f-6-min) / 16) * 1rem) + (var(--f-6-max) - var(--f-6-min)) *
+      var(--fluid-bp)
+  );
+
+  --f-7-min: 71.53;
+  --f-7-max: 95.37;
+  --step-7: calc(
+    ((var(--f-7-min) / 16) * 1rem) + (var(--f-7-max) - var(--f-7-min)) *
+      var(--fluid-bp)
+  );
 }
 
 /* ==== My styles ==== */
@@ -302,7 +316,7 @@ body{
 
 #title img{
   border-bottom: solid 0.3em #333333;
-  height: 3em;
+  height: 2em;
 }
 
 #title img:hover{
@@ -368,7 +382,7 @@ body{
 }
 
 .top{
-  border-bottom: 1px solid #333333;
+  /*border-bottom: 1px solid #333333;*/
   height: 30em;
 }
 
@@ -382,18 +396,53 @@ body{
   top: 50%;
   -ms-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
+  font-kerning: none;
 }
 
-#HeroTitle H1{
-  color:  #333333;
-  font-size: var(--step-5);
-  line-height: var(--step-5);
-  letter-spacing: -0.01em;
+/*Kerning*/
+.tight {
+  letter-spacing: -0.06em;
+}
+
+.loose{
+  letter-spacing: 0.06em;
+}
+
+#HeroTitle H1 {
+  color: #333333;
+  font-size: 2em;
+  text-transform: uppercase;
+  line-height: 0.9em;
+}
+
+.vertical{
+  position: absolute;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: var(--step--2);
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  margin-left: -2.5em;
+  color: #333333;
+  line-height: 1.5em;
+  font-weight: bold;
+  top: 50%;
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  white-space:nowrap;
 }
 
 hr{
    border: none;
    border-bottom: 1px solid #333333;
+   right: 0;
+   width: 100vw;
+   position: absolute;
+   margin: 0;
+   /*
+   margin-left: -1.5em;
+   margin-right: -1.5em;
+   */
  }
 
 H1{
@@ -427,10 +476,6 @@ ul{
   margin-left: -1em;
 }
 
-hr{
-  margin-left: -1.5em;
-  margin-right: -1.5em;
-}
 
 p{
   font-size: var(--step--1);
@@ -495,10 +540,18 @@ border-bottom: 1px solid #333333;
 
 .expTitle{
   text-transform: uppercase;
-  font-size: var(--step-5);
-  margin-top: 0.2em;
-
+  font-size: var(--step-6);
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   margin-left: -2px;
+}
+
+.back{
+   font-weight: bold;
+}
+
+.back::before{
+  content: "\2190";
 }
 
 .expTitle hr{
@@ -638,7 +691,7 @@ sup { vertical-align: top; font-size: var(--step--2); }
   }
 
   #HeroTitle H1{
-    margin-bottom: 0.1em;
+    font-size: var(--step-5);
   }
 
   #HeroTitle p{

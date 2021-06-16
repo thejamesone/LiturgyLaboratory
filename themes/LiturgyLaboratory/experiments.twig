@@ -6,8 +6,7 @@
 
           <div class="row ">
             <div class="col-6">
-              <br>
-              <h2>Recent Experiments</h2>
+              <a class="back" href="{{ pages["index"].url }}">Back</a>
             </div>
           </div>
 
@@ -17,7 +16,7 @@
               {% for page in pages("blog")|sort_by("time")|reverse if not page.hidden %}
               <div class="row exp">
                   <div class="col-6">
-                      <p class="date">{{ page.date_formatted }}</p>
+                      <p class="vertical">{{ page.date_formatted|date("d-m-Y") }}</p>
                       <h1 class="expTitle"><a href="{{ page.url }}">{{ page.title }}</a></h1>
                       <p class="excerpt">{{ page.description }}</p>
 

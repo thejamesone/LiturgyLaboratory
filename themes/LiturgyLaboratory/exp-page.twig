@@ -5,14 +5,18 @@
 {% block main %}
 
               <div class="row">
+                <div class="col-9">
+                  <a class="back" href="{{ pages["exp"].url }}">Back</a>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
                   <div class="col-9">
-                      <h2><a href="{{ pages["exp"].url }}">Back</a></h2>
-                      <hr>
-                      <p class="date">{{ meta.date_formatted }}</p>
+                      <p class="vertical">{{ meta.date_formatted|date("d-m-Y") }}</p>
                       <h1 class="expTitle">{{ meta.title }}</h1>
-                      <hr>
                   </div>
               </div>
+
               <div class="row">
               <div class="col-9" id="expContent">
                 {{ content }}
