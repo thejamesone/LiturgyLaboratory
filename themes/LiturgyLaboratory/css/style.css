@@ -548,6 +548,8 @@ border-bottom: 1px solid #333333;
 
 .back{
    font-weight: bold;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
 }
 
 .back::before{
