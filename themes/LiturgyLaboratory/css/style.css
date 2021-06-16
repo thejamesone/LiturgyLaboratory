@@ -550,6 +550,7 @@ border-bottom: 1px solid #333333;
    font-weight: bold;
    margin-top: 0.5em;
    margin-bottom: 0.5em;
+   margin-left: -1.2em;
 }
 
 .back::before{
