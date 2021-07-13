@@ -303,9 +303,9 @@ Seashell = FEECE7
 body{
   display: flex; flex-direction: column;
   background: #F48067;
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: "Tahoma", sans-serif;
   font-kerning: normal;
-  word-spacing: -0.07em;
+  line-height: 1.6em;
   text-rendering: optimizeLegibility;
   }
 
@@ -344,7 +344,7 @@ body{
 #nav {
   color: #333333;
   font-size: var(--step-0);
-  font-family: "Trebuchet MS", sans-serif;
+
   font-weight: normal;
   display: inline-block;
   text-decoration: none;
@@ -360,7 +360,7 @@ body{
   display: none;
   color: #333333;
   font-size: var(--step-1);
-  font-family: "Trebuchet MS", sans-serif;
+
   font-weight: normal;
   line-height: var(--step-3);
   text-decoration: none;
@@ -416,6 +416,7 @@ body{
 }
 
 .vertical{
+  font-family: monospace;
   position: absolute;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -448,19 +449,19 @@ hr{
 H1{
   font-size: var(--step-3);
   line-height: var(--step-3);
-  font-family: "Trebuchet MS", sans-serif;
+
   color:  #333333;
 }
 
 H2{
   font-size: var(--step-1);
-  font-family: "Trebuchet MS", sans-serif;
+
   color:  #333333;
 }
 
 H3{
   font-size: var(--step-0);
-  font-family: "Trebuchet MS", sans-serif;
+
   font-weight: bold;
   color:  #333333;
 }
@@ -479,8 +480,6 @@ ul{
 
 p{
   font-size: var(--step--1);
-  font-family: "Trebuchet MS", sans-serif;
-  line-height: 1.5em;
   color:  #333333;
   letter-spacing:normal;
 }
@@ -566,7 +565,6 @@ border-bottom: 1px solid #333333;
 #flame{
   position: relative;
   left: 50%;
-  top: 17em;
   margin-left: -30px;
   margin-top: -80px;
   height: 147px;
@@ -609,7 +607,7 @@ border-bottom: 1px solid #333333;
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-position: -3px 100%;
+  background-position: -3px 0px;
 }
 
 .Exp p{
@@ -620,8 +618,8 @@ border-bottom: 1px solid #333333;
 }
 
 #footer {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 3em;
+  padding-bottom: 3em;
   color: #feece7;
   background-color: #333333;
   font-size: var(--step--2);
@@ -726,13 +724,13 @@ sup { vertical-align: top; font-size: var(--step--2); }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 720px) {
   .top{
-    height: 15em;
+    height: 22em;
   }
 
   #flame{
     position: absolute;
     margin: 0;
-    top: 50%;
+    top: 35%;
     left: 50%;
     -ms-transform: translate(-50%, -50%) scale(0.8);
     transform: translate(-50%, -50%) scale(0.8);
@@ -747,20 +745,20 @@ sup { vertical-align: top; font-size: var(--step--2); }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .top{
-    height: 19em;
+    height: 25em;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .top{
-    height: 22em;
+    height: 25em;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .top{
-    height: 25em;
+    height: 35em;
   }
 }
