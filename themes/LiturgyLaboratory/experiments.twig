@@ -18,7 +18,7 @@
               {% for page in pages("blog")|sort_by("time")|reverse if not page.hidden %}
               <div class="row exp">
                   <div class="col-6">
-                      <p class="vertical">{{ page.date_formatted|date("d-m-Y") }}</p>
+                      <p class="date">{{ page.date_formatted|date("d-m-Y") }}</p>
                       <h1 class="expTitle"><a href="{{ page.url }}">{{ page.title }}</a></h1>
                       <p class="excerpt">{{ page.description }}</p>
 
