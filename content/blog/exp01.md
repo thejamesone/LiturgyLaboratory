@@ -5,22 +5,21 @@ Author: James O'Neill
 Date: 16.06.2021
 Robots: noindex,nofollow
 Template: exp-page
+image: %theme_url%/img/EXP1.svg
+alt: An illustration of a web browser address bar containing heart icons.
 ---
 
 
-## Can a website be loving?
 
-What does it mean to design with love? Love can be a vague and slippery concept. A person can say they love their spouse and also say they love Thai food; the meaning of the word love is very vulnerable to it's context. The kind of love discussed here is what philosophical theologian Nicholas Wolterstroff calls care-love. Wolterstroff argues that this is the kind of love that Jesus had in mind when he said "Love your neighbour as yourself", found in the books of Matthew and Mark in the Bible. To love your neighbour is to seek their good, secure their rights, and respect their worth for no other reason than the fact that they are your neighbour [^1]. And everyone is your neighbour.
+## How might we apply the principles of love to a website?
 
-## So, how might we apply the principles of love to a website?
+The design of this website prioritises care and love for our users. The design aims to take the biblical instruction to love our neighbours seriously. Although it might at first glance look like any other website, it operates a little differently. Here we will step through all the design decisions that we made with love in mind.
 
-Liturgylaboratory.com has been designed with the principles of care-love in mind. Although it might at first glance look like any other website, it operates a little differently. Here we will step through all the design decisions that were made with love in mind.
+### Loving the environment is also loving your neighbours.
 
-### Loving the environment is also loving your neighbours
+The internet is an energy hungry creature. According to some estimates the internet, and its supporting systems, account for about 3.7% of global greenhouse emissions. That is similar to the amount produced by the global airline industry [^1].
 
-The internet is an energy hungry creature. According to some estimates the internet, and its supporting systems, account for about 3.7% of global greenhouse emissions. That is similar to the amount produced by the global airline industry [^2].
-
-Inspired by The Low Impact Manifesto from Organic Basics [^3], this website has taken some steps to reduce its carbon footprint.
+Inspired by The Low Impact Manifesto from Organic Basics [^2], and the sustainable web manifesto, [^3] this website has taken some steps to reduce its carbon footprint.
 
 **This website does not use large images or videos.**
 You may have noticed a little animation of a flame on the home page. This is what's known as a css sprite animation. With this method we can reduce the size of the animation to 3kb, compared to ~99kb if it were a video.
@@ -55,7 +54,8 @@ Web accessibility is the practice of making a website useable by anyone regardle
 
 This website has been designed to comply with accessibility guidelines. Users who rely on screen readers, keyboard navigation, or other assistive technologies should be able to navigate without difficulty. However, if you experiences any accessibility issues, please let us know by emailing [hello@liturgylaboratory.com](mailto:hello@liturgylaboratory.com).
 
-[^1]:Nicholas Wolterstroff, *Justice in Love*, 2015, Eerdmans Grand Rapids, Michigan.
-[^2]:[BBC, why your internet habits are not as clean as you think](https://www.bbc.com/future/article/20200305-why-your-internet-habits-are-not-as-clean-as-you-think)
-[^3]:[Organic basics low impact manifesto](https://lowimpact.organicbasics.com/eur#manifesto)
+
+[^1]:[BBC, why your internet habits are not as clean as you think](https://www.bbc.com/future/article/20200305-why-your-internet-habits-are-not-as-clean-as-you-think)
+[^2]:[Organic basics low impact manifesto](https://lowimpact.organicbasics.com/eur#manifesto)
+[^3]:[Sustainable Web Manifesto](https://www.sustainablewebmanifesto.com/)
 [^4]:[greengeeks.com](https://greengeeks.com)

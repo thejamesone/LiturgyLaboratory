@@ -315,12 +315,11 @@ body{
   }
 
 #title img{
-  border-bottom: solid 0.3em #333333;
   height: 2em;
 }
 
 #title img:hover{
-  border-color: #feece7;
+  filter: invert(65%) sepia(35%) saturate(1133%) hue-rotate(317deg) brightness(99%) contrast(93%);
 }
 
 #head{
@@ -515,6 +514,8 @@ a:hover {
 
 .exp{
   display: flex;
+  
+  border-bottom: 1px solid #333333;
 }
 
 .expImg{
@@ -540,7 +541,7 @@ border-bottom: 1px solid #333333;
 
 .expTitle{
   text-transform: uppercase;
-  font-size: var(--step-6);
+  font-size: var(--step-4);
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   margin-left: -2px;
